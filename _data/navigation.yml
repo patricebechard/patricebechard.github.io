@@ -1,6 +1,10 @@
 # Site navigation links
 
-- title:
-  url:
-  excerpt:
-  image:
+- title: Home
+  url: http://patricebechard.github.io
+  excerpt: back to home
+  image: home.gif
+  
+- title: About Me
+  url: http://patricebechard.github.io/aboutme
+  

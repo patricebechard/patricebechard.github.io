@@ -1,11 +1,11 @@
 # Site wide configuration
 
-title: Patrice Bechard
-description: B.Sc. Physics at Université de Montréal
-logo: twitter_card.jpg # 120x120 px default image used for Twitter summary card
-teaser: cover_photo.jpg # 400x250 px default teaser image used in image archive grid
+title: Patrice Béchard
+description: "B.Sc. Physics at Université de Montréal"
+logo: twitter_card.gif # 120x120 px default image used for Twitter summary card
+teaser: default_photo.gif # 400x250 px default teaser image used in image archive grid
 locale: en
-url: patricebechard.github.io
+url: http://patricebechard.github.io
 
 # Jekyll configuration
 
@@ -37,15 +37,15 @@ titlecase: true
 
 # Site owner
 owner: Patrice Bechard
-  name: Patrice Bechard
-  email: bechardpatrice@gmail.com
-  twitter: patricebechard
-  google:
-    ad-client:
-    ad-slot:
-  bio: I am completing my B.Sc. in physics at Université de Montréal. I am presently doing an internship in astrophysics under the supervision of Pierre Bergeron.
-  avatar: bio-photo.jpg # 160x160 px image for author byline
-  disqus-shortname:
+name: Patrice Bechard
+email: bechardpatrice@gmail.com
+twitter: patricebechard
+google:
+  ad-client:
+  ad-slot:
+bio: "I am completing my B.Sc. in physics at Université de Montréal. I am presently doing an internship in astrophysics under the supervision of Pierre Bergeron."
+avatar: bio-pic.gif # 160x160 px image for author byline
+disqus-shortname:
 
 
 exclude: ["lib", "config.rb", ".sass-cache", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "*.sublime-project", "*.sublime-workspace", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "node_modules", "Gruntfile.js", "package.json"]
