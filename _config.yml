@@ -1,11 +1,11 @@
 # Site wide configuration
 
-title:
-description:
-logo: # 120x120 px default image used for Twitter summary card
-teaser: # 400x250 px default teaser image used in image archive grid
+title: Patrice Bechard
+description: B.Sc. Physics at Université de Montréal
+logo: twitter_card.jpg # 120x120 px default image used for Twitter summary card
+teaser: cover_photo.jpg # 400x250 px default teaser image used in image archive grid
 locale: en
-url:
+url: patricebechard.github.io
 
 # Jekyll configuration
 
@@ -36,14 +36,14 @@ titlecase: true
 
 
 # Site owner
-owner:
-  name:
-  email:
-  twitter:
+owner: Patrice Bechard
+  name: Patrice Bechard
+  email: bechardpatrice@gmail.com
+  twitter: patricebechard
   google:
     ad-client:
     ad-slot:
-  bio:
+  bio: I am completing my B.Sc. in physics at Université de Montréal. I am presently doing an internship in astrophysics under the supervision of Pierre Bergeron.
   avatar: bio-photo.jpg # 160x160 px image for author byline
   disqus-shortname:
 
