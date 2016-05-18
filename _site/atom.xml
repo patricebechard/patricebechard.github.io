@@ -7,7 +7,7 @@
   <subtitle>B.Sc. Physics at Université de Montréal</subtitle>
   <link href="http://patricebechard.github.io/atom.xml" rel="self"/>
   <link href="http://patricebechard.github.io/" rel="alternate" type="text/html"/>
-  <updated>2016-05-18T00:16:20-04:00</updated>
+  <updated>2016-05-18T00:28:20-04:00</updated>
   <id>http://patricebechard.github.io/</id>
   <author>
     <name></name>
@@ -15,6 +15,23 @@
     
   </author>
 
+  
+  <entry>
+    <title>Aboutme</title>
+    <link href="http://patricebechard.github.io/aboutme/"/>
+    <updated>2016-05-18T00:00:00-04:00</updated>
+    <id>http://patricebechard.github.io/aboutme</id>
+    <author>
+      <name></name>
+      <uri>http://patricebechard.github.io/</uri>
+      
+    </author>
+    <content type="html">
+      
+      &lt;p&gt;About me&lt;/p&gt;
+
+    </content>
+  </entry>
   
   
 </feed>
