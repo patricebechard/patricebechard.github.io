@@ -2,10 +2,10 @@
 
 - title: Home
   url: http://patricebechard.github.io
-  excerpt: back to home
+  excerpt:
   image: home.gif
   
 - title: About Me
   url: http://patricebechard.github.io/aboutme
-  image:
+  image: aboutmepic.gif
   
