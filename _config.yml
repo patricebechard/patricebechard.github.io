@@ -7,11 +7,11 @@ google_analytics:   UA-XXXXXXX-X # Put your Google Analytics code
 # Author Info
 author_name:        "Patrice Béchard"
 author_email:       bechardpatrice@gmail.com
-author_gravatar:    8260A4E222CC5E9922EB03246136BE9E # Gravatar md5 hash
+author_gravatar:    B4AE2409F61CF6948AD0C438024E58D7 # Gravatar md5 hash
 twitter_username:   patricebechard
 
 # Site Settings
-baseurl:            "patricebechard.github.io" # Base URL must end WITHOUT a slash, default: "patricebechard.github.io"
+baseurl:            "" # Base URL must end WITHOUT a slash, default: ""
 permalink:          /notes/:title # Post permalink
 timezone:           America/Montreal # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
