@@ -33,7 +33,7 @@ Undergraduate Student Research Award (USRA) from the NSERC for excellent academi
 
 + Participated in various mathematics and physics contests, such as the Pascal, Gauss and Cayley mathematics contests (University of Waterloo), the 2011 Michael Smith Challenge (UBC), the American Mathematics Contest 12 and the 2014 Canadian Association of Physicists.
 
-+ Basic knowledge of HTML and control source (Github)
++ Basic knowledge of HTML and source control (Github)
 
 + Knowledge of various programming languages (Python, MatLab, C, C++, Fortran77)
 
@@ -41,7 +41,7 @@ Undergraduate Student Research Award (USRA) from the NSERC for excellent academi
 
 <div class="divider"></div>
 
-For PFD versions of my CV, they are here : [**English**](https://drive.google.com/open?id=0B7Md2kcQrZT7X0RRcjN5ZDY3cWc)   [**Français**](https://drive.google.com/open?id=0B7Md2kcQrZT7dkFQdkJDUU9Cc1E)
+For PFD versions of my CV, they are here : [**English**](https://drive.google.com/open?id=0B7Md2kcQrZT7ZFdtZ3p5Sl9kRWc)   [**Français**](https://drive.google.com/open?id=0B7Md2kcQrZT7dkFQdkJDUU9Cc1E)
 
 
 |[LinkedIn](https://www.linkedin.com/in/patrice-b%C3%A9chard-9a7b76a3?trk=nav_responsive_tab_profile_pic)|[Twitter](https://twitter.com/patricebechard)|[Facebook](https://www.facebook.com/patrice.bechard)|
