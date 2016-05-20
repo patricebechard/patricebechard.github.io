@@ -1,9 +1,9 @@
 ---
-title: First Entry
-updated: 2016-05-19 21:20
+title: Curriculum Vitae
+updated: 2016-05-19 21:23
 ---
 
-![Turing](http://orig11.deviantart.net/db3e/f/2015/230/e/f/disappointed_alan_turing__telegram_sticker__by_rakus_kun-d9615y8.png)
+### À Venir
 
 <div class="divider"></div>
 
