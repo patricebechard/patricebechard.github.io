@@ -1,6 +1,6 @@
 ---
 title: Curriculum Vitae
-updated: 2016-05-19 21:23
+updated: 2016-05-20 13:01
 ---
 
 ### Studies & Formation
