@@ -1,5 +1,5 @@
 ---
-title: Curriculum Vitae
+title: Curriculum Vitæ
 updated: 2016-05-20 13:01
 ---
 
