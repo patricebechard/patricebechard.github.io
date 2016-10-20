@@ -1,6 +1,6 @@
 ---
 title: Curriculum Vitæ
-updated: 2016-05-20 13:01
+updated: 2016-10-19 15:50
 ---
 
 ### Studies & Formation
@@ -13,7 +13,7 @@ updated: 2016-05-20 13:01
 
 ### Experience
 
-**May 2016 - Present** Summer Intern for the CRAQ (Astrophysics Research Center of Quebec) under the direction of Prof. Pierre Bergeron, Montréal, Canada.
+**May 2016 - August 2016** Summer Intern for the CRAQ (Astrophysics Research Center of Quebec) under the direction of Prof. Pierre Bergeron, Montréal, Canada.
 
 **June 2014 - August 2014** Guide at Arbraska Laflèche, Val-des-Monts, Qc, Canada.
 
