@@ -17,7 +17,7 @@ We can easily see the log g problem on this figure, where the fit stays at 8.00.
 
 The other method used to find the physical parameters of a star is the so-called spectroscopic method. For this method, we use the spectrum of a star and we fit the log g and effective temperature using atmospheric models (a technique which was developped at the Université de Montréal). An example of a fit using the spectroscopic method is shown here on the same star as above.
 
-![Spectroscopic_method](https://scontent-yyz1-1.xx.fbcdn.net/t31.0-8/14682026_10211270177930630_6749716665996181001_o.jpg)
+![Spectroscopic_method](https://scontent-yyz1-1.xx.fbcdn.net/t31.0-8/14711239_10211270391775976_6382304117830635444_o.jpg)
 
 The top two panel presents the spectrum of the star. The bottom left panel shows the Balmer lines Hα to Hε from the spectrum onto which we have calculated fits to extract the effective temperature and the surface gravity. As you can see, the log g is clearly different from the other figure, since we couldn't fit this parameter with the other method. The bottom right panel shows only the normalised spectrum of the star and is not that important. 
 
