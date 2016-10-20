@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>/notes/first-try</loc>
-<lastmod>2016-05-19T00:00:00-04:00</lastmod>
+<loc>/notes/internship-report</loc>
+<lastmod>2016-10-19T00:00:00-04:00</lastmod>
 </url>
 <url>
-<loc>/notes/curriculum-vitae</loc>
+<loc>/notes/curriculum-vit%25C3%25A6</loc>
+<lastmod>2016-05-20T00:00:00-04:00</lastmod>
+</url>
+<url>
+<loc>/notes/first-try</loc>
 <lastmod>2016-05-19T00:00:00-04:00</lastmod>
 </url>
 <url>
