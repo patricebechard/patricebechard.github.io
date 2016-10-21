@@ -23,7 +23,7 @@ The top two panel presents the spectrum of the star. The bottom left panel shows
 
 After obtaining these parameters, we can use a similar algorithm as used for the photometric method to find the distance and the mass of the star.
 
-DB stars, which show helium features, and DAZ stars, which show hydrogen features and metallic features as well, are fitted using the same techniques as described above. However, some type of white dwarf stars, such as DQ stars(carbon features)and DZ stars(metallic features) need to be fitted using a combination of both techniques.
+DB stars, which show helium features, and DAZ stars, which show hydrogen features and metallic features as well, are fitted using the same techniques as described above. However, some type of white dwarf stars, such as DQ stars (carbon features) and DZ stars (metallic features) need to be fitted using a combination of both techniques.
 
 
 
