@@ -11,13 +11,13 @@ White dwarf stars represent the last stage of the life of 97% of the stars of ou
 
 I used two different methods to determine the atmospheric parameters of the various white dwarf stars. The first method used was the photometric method, which consists on using various photometric filters and to fit the temperature. This method has a flaw, because unless we have a trigonometric parallax measurement for the star, we have no choice but assume the log g of the star being 8.0 to fit the temperature photometrically. If we do have a trigonometric parallax measurement, we can fit both the effective temperature and the surface gravity of the white dwarf star. An example of a fit is demonstrated on a typical DA star, which is a white dwarf star showing hydrogen features only.
 
-![Photometric_method](https://scontent-yyz1-1.xx.fbcdn.net/t31.0-8/14711192_10211270177890629_7496148808154189996_o.jpg)
+![Photometric_method](https://raw.githubusercontent.com/patricebechard/patricebechard.github.io/master/_images/photo.jpg)
 
 We can easily see the log g problem on this figure, where the fit stays at 8.00. This star is an already known white dwarf star. The left panel shows the photometric data from various filters (Galex (near UV), UGRIZ, USNO (Bj, Rf and In) and 2mass (J, H and Ks)) and the and the appropriate fit for a hydrogen atmosphere (black circles) as well as an helium atmosphere (white circles). The filters highlighted in red are excluded from the fit and the atmospheric parameters highlighted in red correspond to the chosen solution. The right panel presents a normalised spectrum of the Hα Balmer Line with the red curve representing the fit for the predicted temperature and surface gravity.
 
 The other method used to find the physical parameters of a star is the so-called spectroscopic method. For this method, we use the spectrum of a star and we fit the log g and effective temperature using atmospheric models (a technique which was developped at the Université de Montréal). An example of a fit using the spectroscopic method is shown here on the same star as above.
 
-![Spectroscopic_method](https://scontent-yyz1-1.xx.fbcdn.net/t31.0-8/14692114_10211270401056208_2430415066150641285_o.jpg)
+![Spectroscopic_method](https://raw.githubusercontent.com/patricebechard/patricebechard.github.io/master/_images/spectro.jpg)
 
 The top two panel presents the spectrum of the star. The bottom left panel shows the Balmer lines Hα to Hε from the spectrum onto which we have calculated fits to extract the effective temperature and the surface gravity. As you can see, the log g is clearly different from the other figure, since we couldn't fit this parameter with the other method. The bottom right panel shows only the normalised spectrum of the star and is not that important. 
 
