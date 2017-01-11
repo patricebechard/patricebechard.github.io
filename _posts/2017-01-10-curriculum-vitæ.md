@@ -1,6 +1,6 @@
 ---
 title: Curriculum Vitæ
-updated: 2016-10-19 15:50
+updated: 2017-01-10 19:43
 ---
 
 ### Studies & Formation
@@ -33,15 +33,17 @@ Undergraduate Student Research Award (USRA) from the NSERC for excellent academi
 
 + Participated in various mathematics and physics contests, such as the Pascal, Gauss and Cayley mathematics contests (University of Waterloo), the 2011 Michael Smith Challenge (UBC), the American Mathematics Contest 12 and the 2014 Canadian Association of Physicists.
 
-+ Basic knowledge of HTML and source control (Github)
++ Basic knowledge of HTML and source control (Github) and UNIX/LINUX commands.
 
 + Knowledge of various programming languages (Python, MatLab, C, C++, Fortran77)
 
 + Intermediate knowledge of Latex
 
++ Volunteer in various events organized by the student association of physics of the Université de Montréal (PHYSUM) as well as the student association federation of the Université de Montréal (FAECUM)
+
 <div class="divider"></div>
 
-For PFD versions of my CV, they are here : [**English**](https://drive.google.com/open?id=0B7Md2kcQrZT7ZFdtZ3p5Sl9kRWc)   [**Français**](https://drive.google.com/open?id=0B7Md2kcQrZT7dkFQdkJDUU9Cc1E)
+For PFD versions of my CV, they are here : [**English**](https://github.com/patricebechard/patricebechard.github.io/blob/master/_documents/cv_en%20copy.pdf)   [**Français**](https://github.com/patricebechard/patricebechard.github.io/blob/master/_documents/cv_fr%20copy.pdf)
 
 
 |[LinkedIn](https://www.linkedin.com/in/patrice-b%C3%A9chard-9a7b76a3?trk=nav_responsive_tab_profile_pic)|[Twitter](https://twitter.com/patricebechard)|[Facebook](https://www.facebook.com/patrice.bechard)|
