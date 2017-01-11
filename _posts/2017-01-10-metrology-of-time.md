@@ -1,50 +1,11 @@
 ---
-title: Curriculum Vitæ
-updated: 2017-01-10 19:43
+title: Metrology of Time
+updated: 2017-01-10 19:49
 ---
 
-### Studies & Formation
+I did a research project about the way we measured time from ancient Egypt to today and how the various techniques used have evolved and how they changed the way we live. This was a really interesting subject to know more about and I think the resulting report is a great introduction to this particular subject and contains a lot of references if you are interested going further into the subject.
 
-**September 2014 - Present** B.Sc. in Physics, Université de Montréal, Canada. GPA : 4.0/4.3
-
-**August 2012 - May 2014** DCS in natural sciences, CÉGEP de l'Outaouais, Canada. R score : 32.5
-
-<div class="divider"></div>
-
-### Experience
-
-**May 2016 - August 2016** Summer Intern for the CRAQ (Astrophysics Research Center of Quebec) under the direction of Prof. Pierre Bergeron, Montréal, Canada.
-
-**June 2014 - August 2014** Guide at Arbraska Laflèche, Val-des-Monts, Qc, Canada.
-
-**July 2013 - October 2013** Line Cook at Café Soup'herbe, Chelsea, Qc, Canada.
-
-<div class="divider"></div>
-
-### Awards & Distinctions
-
-Undergraduate Student Research Award (USRA) from the NSERC for excellent academic record.
-
-<div class="divider"></div>
-
-### Other Important Information
-
-+ Native language is french. Full professional proficiency in english. Limited proficiency in spanish.
-
-+ Participated in various mathematics and physics contests, such as the Pascal, Gauss and Cayley mathematics contests (University of Waterloo), the 2011 Michael Smith Challenge (UBC), the American Mathematics Contest 12 and the 2014 Canadian Association of Physicists.
-
-+ Basic knowledge of HTML and source control (Github) and UNIX/LINUX commands.
-
-+ Knowledge of various programming languages (Python, MatLab, C, C++, Fortran77)
-
-+ Intermediate knowledge of Latex
-
-+ Volunteer in various events organized by the student association of physics of the Université de Montréal (PHYSUM) as well as the student association federation of the Université de Montréal (FAECUM)
-
-<div class="divider"></div>
-
-For PFD versions of my CV, they are here : [**English**](https://github.com/patricebechard/patricebechard.github.io/blob/master/_documents/cv_en%20copy.pdf)   [**Français**](https://github.com/patricebechard/patricebechard.github.io/blob/master/_documents/cv_fr%20copy.pdf)
-
+It is available in PDF format [Here](https://github.com/patricebechard/patricebechard.github.io/blob/master/_documents/metrologie_du_temps%20copy.pdf)
 
 |[LinkedIn](https://www.linkedin.com/in/patrice-b%C3%A9chard-9a7b76a3?trk=nav_responsive_tab_profile_pic)|[Twitter](https://twitter.com/patricebechard)|[Facebook](https://www.facebook.com/patrice.bechard)|
 |:------------------------------------------------------------------------------------------------------:|:-------------------------------------------:|:--------------------------------------------------:|
