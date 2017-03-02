@@ -1,6 +1,6 @@
 ---
 title: Curriculum Vitæ
-updated: 2017-01-10 19:43
+updated: 2017-03-02 18:12
 ---
 
 ### Studies & Formation
@@ -13,17 +13,17 @@ updated: 2017-01-10 19:43
 
 ### Experience
 
+**January 2017 - Present** Teaching assistant for the course PHY1652 (Special Relativity), Université de Montréal, Montréal, Canada.
+
 **May 2016 - August 2016** Summer Intern for the CRAQ (Astrophysics Research Center of Quebec) under the direction of Prof. Pierre Bergeron, Montréal, Canada.
 
 **June 2014 - August 2014** Guide at Arbraska Laflèche, Val-des-Monts, Qc, Canada.
-
-**July 2013 - October 2013** Line Cook at Café Soup'herbe, Chelsea, Qc, Canada.
 
 <div class="divider"></div>
 
 ### Awards & Distinctions
 
-Undergraduate Student Research Award (USRA) from the NSERC for excellent academic record.
+**2016** Undergraduate Student Research Award (USRA) from the NSERC for excellent academic record.
 
 <div class="divider"></div>
 
