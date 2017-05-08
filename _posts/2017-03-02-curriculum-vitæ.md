@@ -5,7 +5,7 @@ updated: 2017-03-02 18:12
 
 ### Studies & Formation
 
-**September 2014 - Present** B.Sc. in Physics, Université de Montréal, Canada. GPA : 4.0/4.3
+**September 2014 - April 2017** B.Sc. in Physics, Université de Montréal, Canada. GPA : 4.0/4.3
 
 **August 2012 - May 2014** DCS in natural sciences, CÉGEP de l'Outaouais, Canada. R score : 32.5
 
@@ -13,7 +13,7 @@ updated: 2017-03-02 18:12
 
 ### Experience
 
-**January 2017 - Present** Teaching assistant for the course PHY1652 (Special Relativity), Université de Montréal, Montréal, Canada.
+**January 2017 - April 2017** Teaching assistant for the course PHY1652 (Special Relativity), Université de Montréal, Montréal, Canada.
 
 **May 2016 - August 2016** Summer Intern for the CRAQ (Astrophysics Research Center of Quebec) under the direction of Prof. Pierre Bergeron, Montréal, Canada.
 
@@ -31,13 +31,15 @@ updated: 2017-03-02 18:12
 
 + Native language is french. Full professional proficiency in english. Limited proficiency in spanish.
 
-+ Participated in various mathematics and physics contests, such as the Pascal, Gauss and Cayley mathematics contests (University of Waterloo), the 2011 Michael Smith Challenge (UBC), the American Mathematics Contest 12 and the 2014 Canadian Association of Physicists.
++ Participated in various mathematics and physics contests, such as the Pascal, Gauss and Cayley mathematics contests (University of Waterloo), the 2011 Michael Smith Challenge (UBC), the 2012 American Mathematics Contest, the 2014 Canadian Association of Physicists contest and the 2017 Google Code Jam.
 
-+ Basic knowledge of HTML and source control (Github) and UNIX/LINUX commands.
++ Knowledge of version control (Git) and UNIX/LINUX/Mac environments.
 
-+ Knowledge of various programming languages (Python, MatLab, C, C++, Fortran77)
++ Knowledge of various programming languages (Python, MatLab, Octave, C, C++, Fortran77)
 
-+ Intermediate knowledge of Latex
++ Knowledge of Latex
+
++ Basic knowledge of HTML
 
 + Volunteer in various events organized by the student association of physics of the Université de Montréal (PHYSUM) as well as the student association federation of the Université de Montréal (FAECUM)
 
