@@ -48,6 +48,6 @@ updated: 2017-05-07 21:00
 For PFD versions of my CV, they are here : [**English**](https://github.com/patricebechard/patricebechard.github.io/blob/master/_documents/cv_en%20copy.pdf)   [**Français**](https://github.com/patricebechard/patricebechard.github.io/blob/master/_documents/cv_fr%20copy.pdf)
 
 
-|[LinkedIn](https://www.linkedin.com/in/patrice-b%C3%A9chard-9a7b76a3?trk=nav_responsive_tab_profile_pic)|[Twitter](https://twitter.com/patricebechard)|[Facebook](https://www.facebook.com/patrice.bechard)|
+|[LinkedIn](https://www.linkedin.com/in/patricebechard/)|[Twitter](https://twitter.com/patricebechard)|[Facebook](https://www.facebook.com/patrice.bechard)|
 |:------------------------------------------------------------------------------------------------------:|:-------------------------------------------:|:--------------------------------------------------:|
 |                                                                                                        |                                             |                                                    |

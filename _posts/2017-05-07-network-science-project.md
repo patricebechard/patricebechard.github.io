@@ -8,6 +8,6 @@ During the Winter 2017 semester, I worked on a project on network science. I rea
 The complete document is in french and is available [here](https://github.com/patricebechard/Network_Science_PHY3030/blob/master/Rapport_Final.pdf).
 
 
-|[LinkedIn](https://www.linkedin.com/in/patrice-b%C3%A9chard-9a7b76a3?trk=nav_responsive_tab_profile_pic)|[Twitter](https://twitter.com/patricebechard)|[Facebook](https://www.facebook.com/patrice.bechard)|
+|[LinkedIn](https://www.linkedin.com/in/patricebechard/)|[Twitter](https://twitter.com/patricebechard)|[Facebook](https://www.facebook.com/patrice.bechard)|
 |:------------------------------------------------------------------------------------------------------:|:-------------------------------------------:|:--------------------------------------------------:|
 |                                                                                                        |                                             |                                                    |

@@ -10,6 +10,6 @@ I am an undergraduate in physics at the Université de Montréal. I am currently
 Patrice
 
 
-|[LinkedIn](https://www.linkedin.com/in/patrice-b%C3%A9chard-9a7b76a3?trk=nav_responsive_tab_profile_pic)|[Twitter](https://twitter.com/patricebechard)|[Facebook](https://www.facebook.com/patrice.bechard)|
+|[LinkedIn](https://www.linkedin.com/in/patricebechard/)|[Twitter](https://twitter.com/patricebechard)|[Facebook](https://www.facebook.com/patrice.bechard)|
 |:------------------------------------------------------------------------------------------------------:|:-------------------------------------------:|:--------------------------------------------------:|
 |                                                                                                        |                                             |                                                    |
