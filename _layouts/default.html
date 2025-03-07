@@ -2,30 +2,30 @@
 layout: compress
 ---
 
-<!DOCTYPE html>
-<html lang="en">
+{% include base_path %}
 
-	<head>
-		{% include head.html %}
-	</head>
+<!doctype html>
+<html lang="{{ site.locale | slice: 0,2 }}" class="no-js">
+  <head>
+    {% include head.html %}
+    {% include head/custom.html %}
+  </head>
 
-	<body>
+  <body>
 
-		{% include header.html %}
+    {% include browser-upgrade.html %}
+    {% include masthead.html %}
 
-		<main>
-			{{ content | replace: '&#8617;', '&#8617;&#xfe0e;' }}
-		</main>
+    {{ content }}
 
-		{% if page.path contains '_posts' %}
+    <div class="page__footer">
+      <footer>
+        {% include footer/custom.html %}
+        {% include footer.html %}
+      </footer>
+    </div>
 
-			{% if content contains 'reversefootnote' %}
-				<aside class="note"></aside>
-				<script async src="{{site.baseurl}}/assets/footnotes.js"></script>
-			{% endif %}
+    {% include scripts.html %}
 
-		{% endif %}
-
-	</body>
-
+  </body>
 </html>

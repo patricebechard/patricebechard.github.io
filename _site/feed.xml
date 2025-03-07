@@ -1,43 +1,169 @@
---- layout: null ---
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-03-07T04:59:58+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Patrice Bechard</title><subtitle>Applied Research Scientist working on LLMs and NLP 🤖</subtitle><author><name>Patrice Bechard</name><email>bechardpatrice@gmail.com&quot;</email><uri>https://patricebechard.com</uri></author><entry><title type="html">Future Blog Post</title><link href="http://localhost:4000/posts/2012/08/blog-post-4/" rel="alternate" type="text/html" title="Future Blog Post" /><published>2199-01-01T00:00:00+00:00</published><updated>2199-01-01T00:00:00+00:00</updated><id>http://localhost:4000/posts/2012/08/future-post</id><content type="html" xml:base="http://localhost:4000/posts/2012/08/blog-post-4/"><![CDATA[<p>This post will show up by default. To disable scheduling of future posts, edit <code class="language-plaintext highlighter-rouge">config.yml</code> and set <code class="language-plaintext highlighter-rouge">future: false</code>.</p>]]></content><author><name>Patrice Bechard</name><email>bechardpatrice@gmail.com&quot;</email><uri>https://patricebechard.com</uri></author><category term="cool posts" /><category term="category1" /><category term="category2" /><summary type="html"><![CDATA[This post will show up by default. To disable scheduling of future posts, edit config.yml and set future: false.]]></summary></entry><entry><title type="html">Resume</title><link href="http://localhost:4000/resume/" rel="alternate" type="text/html" title="Resume" /><published>2019-10-21T00:00:00+00:00</published><updated>2019-10-21T00:00:00+00:00</updated><id>http://localhost:4000/resume</id><content type="html" xml:base="http://localhost:4000/resume/"><![CDATA[<p>Here is a link to a <a href="https://patricebechard.github.io/_documents/cv_patrice_bechard.pdf">PDF version of my resume</a></p>]]></content><author><name>Patrice Bechard</name><email>bechardpatrice@gmail.com&quot;</email><uri>https://patricebechard.com</uri></author><summary type="html"><![CDATA[Here is a link to a PDF version of my resume]]></summary></entry><entry><title type="html">Network Science Project</title><link href="http://localhost:4000/network-science-project/" rel="alternate" type="text/html" title="Network Science Project" /><published>2017-05-07T00:00:00+00:00</published><updated>2017-05-07T00:00:00+00:00</updated><id>http://localhost:4000/network-science-project</id><content type="html" xml:base="http://localhost:4000/network-science-project/"><![CDATA[<p>During the Winter 2017 semester, I worked on a project on network science. I read multiple books and articles on the subject and I analyzed various real life networks from data I gathered. It was possible to map a part of the World Wide Web using a web crawler, similarly to the experiment conducted by <a href="http://www.nature.com/nature/journal/v401/n6749/abs/401130a0.html">Albert et. al</a>. I also mapped my Facebook friends network. Both types of networks analyzed presented scale-free network properties, as expected. Comparison between these networks and other real life networks was also conducted.</p>
 
-<?xml version="1.0" encoding="utf-8" ?>
-<feed xmlns="http://www.w3.org/2005/Atom">
+<p>The complete document is in french and is available <a href="https://github.com/patricebechard/Network_Science_PHY3030/blob/master/Rapport_Final.pdf">here</a>.</p>
 
-  <title>{{ site.title | xml_escape }}</title>
-  <subtitle>{{ site.description | xml_escape }}</subtitle>
-  <link href="{{ site.baseurl }}/" rel="alternate"/>
-  <link href="{{ site.baseurl | append: /feed.xml }}" rel="self"/>
-  <rights>Copyright @
-    {{ site.time | date: '%Y' }},
-    {{ site.author_name | xml_escape }}</rights>
-  <icon>{{ site.baseurl }}/assets/favicon.png</icon>
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center"><a href="https://www.linkedin.com/in/patricebechard/">LinkedIn</a></th>
+      <th style="text-align: center"><a href="https://twitter.com/patricebechard">Twitter</a></th>
+      <th style="text-align: center"><a href="https://www.facebook.com/patrice.bechard">Facebook</a></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+  </tbody>
+</table>]]></content><author><name>Patrice Bechard</name><email>bechardpatrice@gmail.com&quot;</email><uri>https://patricebechard.com</uri></author><summary type="html"><![CDATA[During the Winter 2017 semester, I worked on a project on network science. I read multiple books and articles on the subject and I analyzed various real life networks from data I gathered. It was possible to map a part of the World Wide Web using a web crawler, similarly to the experiment conducted by Albert et. al. I also mapped my Facebook friends network. Both types of networks analyzed presented scale-free network properties, as expected. Comparison between these networks and other real life networks was also conducted.]]></summary></entry><entry><title type="html">Curriculum Vitæ</title><link href="http://localhost:4000/curriculum-vit%C3%A6/" rel="alternate" type="text/html" title="Curriculum Vitæ" /><published>2017-05-07T00:00:00+00:00</published><updated>2017-05-07T00:00:00+00:00</updated><id>http://localhost:4000/curriculum-vit%C3%A6</id><content type="html" xml:base="http://localhost:4000/curriculum-vit%C3%A6/"><![CDATA[<h3 id="studies--formation">Studies &amp; Formation</h3>
 
-  <author>
-    <name>{{ site.author_name | xml_escape }}</name>
-    <email>{{ site.author_email | xml_escape }}</email>
-    <uri>https://twitter.com/{{ site.twitter_username }}</uri>
-  </author>
+<p><strong>September 2014 - April 2017</strong> B.Sc. in Physics, Université de Montréal, Canada. GPA : 4.0/4.3</p>
 
-  <updated>{{ site.time | date_to_xmlschema }}</updated>
-  <id>{{ site.baseurl }}/</id>
-  <generator version="{{ jekyll.version }}">Jekyll</generator>
+<p><strong>August 2012 - May 2014</strong> DCS in natural sciences, CÉGEP de l’Outaouais, Canada. R score : 32.5</p>
 
-  {% for post in site.posts limit:40 %}
+<div class="divider"></div>
 
-  {% assign content = post.content | replace: "&#8617;", "&#8617;&#xfe0e;" %}
-  {% assign content = content | replace: "data-lang", "lang" %}
-  {% assign content = content | replace: "<mark>", "<b>" | replace: "</mark>", "</b>" %}
+<h3 id="experience">Experience</h3>
 
-  <entry>
-    <title type="html">{{ post.title | xml_escape }}</title>
-    <id>{{ post.url | prepend: site.baseurl }}</id>
-    <updated>{{ post.updated | date_to_xmlschema }}</updated>
-    <published>{{ post.path | truncate: 20 | replace: "...", "" | replace: "_posts/", "" }}T10:00:00+02:00</published>
-    <content type="html" xml:lang="en">
-      <![CDATA[{{ content }}]]>
-    </content>
-  </entry>
+<p><strong>January 2017 - April 2017</strong> Teaching assistant for the course PHY1652 (Special Relativity), Université de Montréal, Montréal, Canada.</p>
 
-  {% endfor %}
+<p><strong>May 2016 - August 2016</strong> Summer Intern for the CRAQ (Astrophysics Research Center of Quebec) under the direction of Prof. Pierre Bergeron, Montréal, Canada.</p>
 
-</feed>
+<p><strong>June 2014 - August 2014</strong> Guide at Arbraska Laflèche, Val-des-Monts, Qc, Canada.</p>
+
+<div class="divider"></div>
+
+<h3 id="awards--distinctions">Awards &amp; Distinctions</h3>
+
+<p><strong>2016</strong> Undergraduate Student Research Award (USRA) from the NSERC for excellent academic record.</p>
+
+<div class="divider"></div>
+
+<h3 id="other-important-information">Other Important Information</h3>
+
+<ul>
+  <li>
+    <p>Native language is french. Full professional proficiency in english. Limited proficiency in spanish.</p>
+  </li>
+  <li>
+    <p>Participated in various mathematics and physics contests, such as the Pascal, Gauss and Cayley mathematics contests (University of Waterloo), the 2011 Michael Smith Challenge (UBC), the 2012 American Mathematics Contest, the 2014 Canadian Association of Physicists contest and the 2017 Google Code Jam.</p>
+  </li>
+  <li>
+    <p>Knowledge of version control (Git) and UNIX/LINUX/Mac environments.</p>
+  </li>
+  <li>
+    <p>Knowledge of various programming languages (Python, MatLab, Octave, C, C++, Fortran77)</p>
+  </li>
+  <li>
+    <p>Knowledge of Latex</p>
+  </li>
+  <li>
+    <p>Basic knowledge of HTML</p>
+  </li>
+  <li>
+    <p>Volunteer in various events organized by the student association of physics of the Université de Montréal (PHYSUM) as well as the student association federation of the Université de Montréal (FAECUM)</p>
+  </li>
+</ul>
+
+<div class="divider"></div>
+
+<p>For PFD versions of my CV, they are here : <a href="https://github.com/patricebechard/patricebechard.github.io/blob/master/_documents/cv_en%20copy.pdf"><strong>English</strong></a>   <a href="https://github.com/patricebechard/patricebechard.github.io/blob/master/_documents/cv_fr%20copy.pdf"><strong>Français</strong></a></p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center"><a href="https://www.linkedin.com/in/patricebechard/">LinkedIn</a></th>
+      <th style="text-align: center"><a href="https://twitter.com/patricebechard">Twitter</a></th>
+      <th style="text-align: center"><a href="https://www.facebook.com/patrice.bechard">Facebook</a></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+  </tbody>
+</table>]]></content><author><name>Patrice Bechard</name><email>bechardpatrice@gmail.com&quot;</email><uri>https://patricebechard.com</uri></author><summary type="html"><![CDATA[Studies &amp; Formation]]></summary></entry><entry><title type="html">Metrology of Time</title><link href="http://localhost:4000/metrology-of-time/" rel="alternate" type="text/html" title="Metrology of Time" /><published>2017-01-11T00:00:00+00:00</published><updated>2017-01-11T00:00:00+00:00</updated><id>http://localhost:4000/metrology-of-time</id><content type="html" xml:base="http://localhost:4000/metrology-of-time/"><![CDATA[<p>I did a research project about the way we measured time from ancient Egypt to today and how the various techniques used have evolved and how they changed the way we live. This was a really interesting subject to know more about and I think the resulting report is a great introduction to this particular subject and contains a lot of references if you are interested going further into it.</p>
+
+<p>The document is in french. It is available in PDF format <a href="https://github.com/patricebechard/patricebechard.github.io/blob/master/_documents/metrologie_du_temps%20copy.pdf">Here</a>.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center"><a href="https://www.linkedin.com/in/patricebechard/">LinkedIn</a></th>
+      <th style="text-align: center"><a href="https://twitter.com/patricebechard">Twitter</a></th>
+      <th style="text-align: center"><a href="https://www.facebook.com/patrice.bechard">Facebook</a></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+  </tbody>
+</table>]]></content><author><name>Patrice Bechard</name><email>bechardpatrice@gmail.com&quot;</email><uri>https://patricebechard.com</uri></author><summary type="html"><![CDATA[I did a research project about the way we measured time from ancient Egypt to today and how the various techniques used have evolved and how they changed the way we live. This was a really interesting subject to know more about and I think the resulting report is a great introduction to this particular subject and contains a lot of references if you are interested going further into it.]]></summary></entry><entry><title type="html">Summer 2016 Internship Report</title><link href="http://localhost:4000/internship-report/" rel="alternate" type="text/html" title="Summer 2016 Internship Report" /><published>2016-10-20T00:00:00+00:00</published><updated>2016-10-20T00:00:00+00:00</updated><id>http://localhost:4000/internship-report</id><content type="html" xml:base="http://localhost:4000/internship-report/"><![CDATA[<p>Between April and August 2016, I was an intern for the CRAQ (Centre de recherche en astrophysique du Québec) under the supervision of prof. Pierre Bergeron, at the Université de Montréal. I was working on developping a complete, statistically unbiased, volume-based sample of white-dwarf stars within a distance of 40pc of the sun, visible from the northern emisphere, as well as obtaining important physical properties for these stars, such as effective temperature, surface gravity (log g) and atmospheric composition.</p>
+
+<p>The spectroscopic and photometric data used was mainly collected by Marie-Michele Limoges, PhD, who left the CRAQ after obtaining her diploma. She published a paper on the subject with Bergeron and prof. Sebastien Lepine from Georgia State University, available <a href="https://arxiv.org/pdf/1505.02297v1.pdf">here</a>. The goal of my internship was to re-do the analysis of the whole sample using new atmospheric models for various spectral types of white dwarf stars and to clarify the codes and to make them more homogeneous and reusable.</p>
+
+<p>White dwarf stars represent the last stage of the life of 97% of the stars of our Galaxy, including the Sun. The sample used is from the SUPERBLINK survey, a vast catalog containing proper motion data and photometric data of more than 2 million stars. White dwarf stars are stars having masses from about 0.4 to 1.4 times the mass of the sun. However, this type of star has a size comparable to the size of the earth, which means it is much more dense than the Sun. In fact, the physics behind this type of star is pretty different from the one of a normal, main sequence star. For a main sequence star such as the Sun, the force that stops the star from collapsing onto itself because of its own gravity is the pressure created by nuclear reactions in its core. A white dwarf star has no more nuclear reaction going on in its core, so it collapses onto itself, but that process is stopped by the pressure of the degenerate electrons of the core, which are governed by the Pauli exclusion principle, which states that fermions (the electrons in our case) cannot occupy the same quantum state, which limits the minimum volume of the star. The white dwarf star is then left in outer space, without doing anything except from cooling, for the rest of eternity.</p>
+
+<p>I used two different methods to determine the atmospheric parameters of the various white dwarf stars. The first method used was the photometric method, which consists on using various photometric filters and to fit the temperature. This method has a flaw, because unless we have a trigonometric parallax measurement for the star, we have no choice but assume the log g of the star being 8.0 to fit the temperature photometrically. If we do have a trigonometric parallax measurement, we can fit both the effective temperature and the surface gravity of the white dwarf star. An example of a fit is demonstrated on a typical DA star, which is a white dwarf star showing hydrogen features only.</p>
+
+<p><img src="https://raw.githubusercontent.com/patricebechard/patricebechard.github.io/master/images/photo.jpg" alt="Photometric_method" /></p>
+
+<p>We can easily see the log g problem on this figure, where the fit stays at 8.00. This star is an already known white dwarf star. The left panel shows the photometric data from various filters (Galex (near UV), UGRIZ, USNO (Bj, Rf and In) and 2mass (J, H and Ks)) and the and the appropriate fit for a hydrogen atmosphere (black circles) as well as an helium atmosphere (white circles). The filters highlighted in red are excluded from the fit and the atmospheric parameters highlighted in red correspond to the chosen solution. The right panel presents a normalised spectrum of the Hα Balmer Line with the red curve representing the fit for the predicted temperature and surface gravity.</p>
+
+<p>The other method used to find the physical parameters of a star is the so-called spectroscopic method. For this method, we use the spectrum of a star and we fit the log g and effective temperature using atmospheric models (a technique which was developped at the Université de Montréal). An example of a fit using the spectroscopic method is shown here on the same star as above.</p>
+
+<p><img src="https://raw.githubusercontent.com/patricebechard/patricebechard.github.io/master/images/spectro.jpg" alt="Spectroscopic_method" /></p>
+
+<p>The top two panel presents the spectrum of the star. The bottom left panel shows the Balmer lines Hα to Hε from the spectrum onto which we have calculated fits to extract the effective temperature and the surface gravity. As you can see, the log g is clearly different from the other figure, since we couldn’t fit this parameter with the other method. The bottom right panel shows only the normalised spectrum of the star and is not that important.</p>
+
+<p>After obtaining these parameters, we can use a similar algorithm as used for the photometric method to find the distance and the mass of the star.</p>
+
+<p>DB stars, which show helium features, and DAZ stars, which show hydrogen features and metallic features as well, are fitted using the same techniques as described above. However, some type of white dwarf stars, such as DQ stars (carbon features) and DZ stars (metallic features) need to be fitted using a combination of both techniques.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center"><a href="https://www.linkedin.com/in/patricebechard/">LinkedIn</a></th>
+      <th style="text-align: center"><a href="https://twitter.com/patricebechard">Twitter</a></th>
+      <th style="text-align: center"><a href="https://www.facebook.com/patrice.bechard">Facebook</a></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+    </tr>
+  </tbody>
+</table>]]></content><author><name>Patrice Bechard</name><email>bechardpatrice@gmail.com&quot;</email><uri>https://patricebechard.com</uri></author><summary type="html"><![CDATA[Between April and August 2016, I was an intern for the CRAQ (Centre de recherche en astrophysique du Québec) under the supervision of prof. Pierre Bergeron, at the Université de Montréal. I was working on developping a complete, statistically unbiased, volume-based sample of white-dwarf stars within a distance of 40pc of the sun, visible from the northern emisphere, as well as obtaining important physical properties for these stars, such as effective temperature, surface gravity (log g) and atmospheric composition.]]></summary></entry><entry><title type="html">Blog Post number 4</title><link href="http://localhost:4000/posts/2012/08/blog-post-4/" rel="alternate" type="text/html" title="Blog Post number 4" /><published>2015-08-14T00:00:00+00:00</published><updated>2015-08-14T00:00:00+00:00</updated><id>http://localhost:4000/posts/2012/08/blog-post-4</id><content type="html" xml:base="http://localhost:4000/posts/2012/08/blog-post-4/"><![CDATA[<p>This is a sample blog post. Lorem ipsum I can’t remember the rest of lorem ipsum and don’t have an internet connection right now. Testing testing testing this blog post. Blog posts are cool.</p>
+
+<h1 id="headings-are-cool">Headings are cool</h1>
+
+<h1 id="you-can-have-many-headings">You can have many headings</h1>
+
+<h2 id="arent-headings-cool">Aren’t headings cool?</h2>]]></content><author><name>Patrice Bechard</name><email>bechardpatrice@gmail.com&quot;</email><uri>https://patricebechard.com</uri></author><category term="cool posts" /><category term="category1" /><category term="category2" /><summary type="html"><![CDATA[This is a sample blog post. Lorem ipsum I can’t remember the rest of lorem ipsum and don’t have an internet connection right now. Testing testing testing this blog post. Blog posts are cool.]]></summary></entry><entry><title type="html">Blog Post number 3</title><link href="http://localhost:4000/posts/2014/08/blog-post-3/" rel="alternate" type="text/html" title="Blog Post number 3" /><published>2014-08-14T00:00:00+00:00</published><updated>2014-08-14T00:00:00+00:00</updated><id>http://localhost:4000/posts/2014/08/blog-post-3</id><content type="html" xml:base="http://localhost:4000/posts/2014/08/blog-post-3/"><![CDATA[<p>This is a sample blog post. Lorem ipsum I can’t remember the rest of lorem ipsum and don’t have an internet connection right now. Testing testing testing this blog post. Blog posts are cool.</p>
+
+<h1 id="headings-are-cool">Headings are cool</h1>
+
+<h1 id="you-can-have-many-headings">You can have many headings</h1>
+
+<h2 id="arent-headings-cool">Aren’t headings cool?</h2>]]></content><author><name>Patrice Bechard</name><email>bechardpatrice@gmail.com&quot;</email><uri>https://patricebechard.com</uri></author><category term="cool posts" /><category term="category1" /><category term="category2" /><summary type="html"><![CDATA[This is a sample blog post. Lorem ipsum I can’t remember the rest of lorem ipsum and don’t have an internet connection right now. Testing testing testing this blog post. Blog posts are cool.]]></summary></entry><entry><title type="html">Blog Post number 2</title><link href="http://localhost:4000/posts/2013/08/blog-post-2/" rel="alternate" type="text/html" title="Blog Post number 2" /><published>2013-08-14T00:00:00+00:00</published><updated>2013-08-14T00:00:00+00:00</updated><id>http://localhost:4000/posts/2013/08/blog-post-2</id><content type="html" xml:base="http://localhost:4000/posts/2013/08/blog-post-2/"><![CDATA[<p>This is a sample blog post. Lorem ipsum I can’t remember the rest of lorem ipsum and don’t have an internet connection right now. Testing testing testing this blog post. Blog posts are cool.</p>
+
+<h1 id="headings-are-cool">Headings are cool</h1>
+
+<h1 id="you-can-have-many-headings">You can have many headings</h1>
+
+<h2 id="arent-headings-cool">Aren’t headings cool?</h2>]]></content><author><name>Patrice Bechard</name><email>bechardpatrice@gmail.com&quot;</email><uri>https://patricebechard.com</uri></author><category term="cool posts" /><category term="category1" /><category term="category2" /><summary type="html"><![CDATA[This is a sample blog post. Lorem ipsum I can’t remember the rest of lorem ipsum and don’t have an internet connection right now. Testing testing testing this blog post. Blog posts are cool.]]></summary></entry><entry><title type="html">Blog Post number 1</title><link href="http://localhost:4000/posts/2012/08/blog-post-1/" rel="alternate" type="text/html" title="Blog Post number 1" /><published>2012-08-14T00:00:00+00:00</published><updated>2012-08-14T00:00:00+00:00</updated><id>http://localhost:4000/posts/2012/08/blog-post-1</id><content type="html" xml:base="http://localhost:4000/posts/2012/08/blog-post-1/"><![CDATA[<p>This is a sample blog post. Lorem ipsum I can’t remember the rest of lorem ipsum and don’t have an internet connection right now. Testing testing testing this blog post. Blog posts are cool.</p>
+
+<h1 id="headings-are-cool">Headings are cool</h1>
+
+<h1 id="you-can-have-many-headings">You can have many headings</h1>
+
+<h2 id="arent-headings-cool">Aren’t headings cool?</h2>]]></content><author><name>Patrice Bechard</name><email>bechardpatrice@gmail.com&quot;</email><uri>https://patricebechard.com</uri></author><category term="cool posts" /><category term="category1" /><category term="category2" /><summary type="html"><![CDATA[This is a sample blog post. Lorem ipsum I can’t remember the rest of lorem ipsum and don’t have an internet connection right now. Testing testing testing this blog post. Blog posts are cool.]]></summary></entry></feed>

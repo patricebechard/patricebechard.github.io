@@ -1,0 +1,18 @@
+current directory: /Users/patrice.bechard/Projects/patricebechard.github.io/vendor/bundle/ruby/3.4.0/gems/racc-1.8.1/ext/racc/cparse
+/opt/homebrew/opt/ruby/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/patrice.bechard/Projects/patricebechard.github.io/vendor/bundle/ruby/3.4.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20250306-10622-bpwzip sitelibdir\=./.gem.20250306-10622-bpwzip clean
+
+current directory: /Users/patrice.bechard/Projects/patricebechard.github.io/vendor/bundle/ruby/3.4.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20250306-10622-bpwzip sitelibdir\=./.gem.20250306-10622-bpwzip
+compiling cparse.c
+linking shared-object racc/cparse.bundle
+
+current directory: /Users/patrice.bechard/Projects/patricebechard.github.io/vendor/bundle/ruby/3.4.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20250306-10622-bpwzip sitelibdir\=./.gem.20250306-10622-bpwzip install
+/usr/bin/install -c -m 0755 cparse.bundle ./.gem.20250306-10622-bpwzip/racc
+
+current directory: /Users/patrice.bechard/Projects/patricebechard.github.io/vendor/bundle/ruby/3.4.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20250306-10622-bpwzip sitelibdir\=./.gem.20250306-10622-bpwzip clean

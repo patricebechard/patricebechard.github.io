@@ -1,2 +1,10 @@
 # patricebechard.github.io
-personal page
+
+Personal Webpage
+
+
+## To serve locally
+
+```
+bundle exec jekyll serve
+```
