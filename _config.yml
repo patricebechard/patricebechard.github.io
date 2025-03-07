@@ -12,7 +12,7 @@ site_theme               : "default"
 title                    : "Patrice Bechard"
 title_separator          : "-"
 name                     : &name "Patrice Bechard"
-description              : &description "Applied Research Scientist working on LLMs and NLP 🤖"
+description              : &description "Applied Research Scientist<br>LLMs and NLP 🤖"
 url                      : https://patricebechard.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "patricebechard/patricebechard.github.io"
@@ -24,14 +24,14 @@ author:
   # Biographic information
   avatar           : "profile.jpg"
   name             : "Patrice Bechard"
-  bio              : "Applied Research Scientist working on LLMs and NLP 🤖"
-  location         : "Montreal, QC, Canada"
+  bio              : "Applied Research Scientist<br>LLMs and NLP 🤖"
+  location         : "Montreal"
   employer         : "ServiceNow"
   uri              : "https://patricebechard.com"
   email            : bechardpatrice@gmail.com" 
 
   # Academic websites
-  arxiv            : "https://arxiv.org/search/cs?searchtype=author&query=B%C3%A9chard,+P"
+  arxiv            : # URL
   googlescholar    : "https://scholar.google.com/citations?user=O-YzTloAAAAJ"
   impactstory      : # URL
   orcid            : # URL
