@@ -1,0 +1,215 @@
+<div id="container">
+    <!-- Reasoning box -->
+    <div id="reasoning-box" class="collapsed" style="border: 1px solid #666666; background-color: #f5f5f5; border-radius: 8px; width: fit-content; transition: width 0.3s ease;">
+        <div id="reasoning-header" style="cursor: pointer; display: flex; align-items: center; padding: 5px 10px;">
+            <div id="reasoning-title" style="font-weight: bold;">Thinking...</div>
+            <!-- <div id="thinking-spinner" class="spinner" style="display: inline-block;"></div> -->
+            <!-- Simple explicit spinner that will definitely show -->
+            <div id="thinking-spinner" class="spinner" style="
+                display: inline-block;
+                border: 3px solid rgba(0, 0, 0, 0.1);
+                border-radius: 50%;
+                border-top: 3px solid #3498db;
+                width: 16px;
+                height: 16px;
+                animation: spin 1s linear infinite;
+                margin-left: 10px;
+            "></div>
+            <div id="reasoning-toggle" style="display: none;">Reasoning</div>
+            <div id="expand-arrow" style="display: none; margin-left: 10px; font-size: 0.6em;">▼</div>
+        </div>
+        <div id="reasoning-content" style="display: none; padding: 10px; max-height: 400px; overflow-y: auto;">
+            {% capture reasoning_content %}{% include {{ include.reasoning }}.md %}{% endcapture %}
+            <!-- {% assign reasoning_content_escaped = reasoning_content | strip | replace: '<think>', '&lt;think&gt;' | replace: '</think>', '&lt;/think&gt;' %} -->
+            {% capture processed_content %}{{ reasoning_content_escaped | markdownify }}{% endcapture %}
+            {% assign processed_content = processed_content | replace: '<p>', '<span class="md-p">' | replace: '</p>', '</span>' %}
+            <script>
+                console.log({{ processed_content | jsonify }});
+            </script>
+            {{ processed_content }}
+        </div>
+    </div>
+    
+    <!-- Streaming text below the reasoning box -->
+    <div id="streaming-area">
+        <div id="streaming-text"></div>
+        <span class="blinking-cursor"></span>
+    </div>
+    
+    <!-- Hidden textarea for the content to stream -->
+    <textarea id="textInput" style="display: none;">{% include {{ include.streaming }}.md %}</textarea>
+</div>
+
+<style>
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+    
+    /* Styles for the reasoning box transitions */
+    #reasoning-box {
+        width: fit-content !important;
+        transition: width 0.3s ease;
+    }
+    
+    #reasoning-box {
+        width: fit-content !important;
+        transition: width 0.3s ease;
+        margin-bottom: 10px; /* Add spacing between reasoning box and text */
+    }
+
+    #reasoning-box.expanded {
+        width: 100% !important;
+    }
+    
+    #reasoning-box.expanded #reasoning-content {
+        max-height: 400px;
+        opacity: 1;
+        padding: 10px;
+        overflow-y: auto;
+    }
+    
+    /* Markdown styling */
+    #reasoning-content {
+        white-space: pre-wrap;
+        line-height: 1.5;
+        font-family: Consolas, Menlo, Monaco, 'Courier New', monospace;
+        font-size: 0.8em;
+        padding: 10px;
+    }
+    
+    #reasoning-content h1, 
+    #reasoning-content h2, 
+    #reasoning-content h3, 
+    #reasoning-content h4, 
+    #reasoning-content h5, 
+    #reasoning-content h6 {
+        margin-top: 1em;
+        margin-bottom: 0.5em;
+        font-weight: bold;
+    }
+    
+    #reasoning-content p {
+        margin-bottom: 1em;
+    }
+    
+    #reasoning-content ul, 
+    #reasoning-content ol {
+        margin-left: 1.5em;
+        margin-bottom: 1em;
+    }
+    
+    #reasoning-content code {
+        background-color: #f0f0f0;
+        padding: 0.2em 0.4em;
+        border-radius: 3px;
+        font-family: monospace;
+    }
+    
+    #reasoning-content pre {
+        background-color: #f0f0f0;
+        padding: 1em;
+        overflow-x: auto;
+        border-radius: 3px;
+        margin-bottom: 1em;
+    }
+    
+    #reasoning-content blockquote {
+        border-left: 4px solid #ddd;
+        padding-left: 1em;
+        color: #666;
+        margin-left: 0;
+        margin-bottom: 1em;
+    }
+    
+    #reasoning-content a {
+        color: #0366d6;
+        text-decoration: none;
+    }
+    
+    #reasoning-content a:hover {
+        text-decoration: underline;
+    }
+    
+    #reasoning-content table {
+        border-collapse: collapse;
+        margin-bottom: 1em;
+    }
+    
+    #reasoning-content th, 
+    #reasoning-content td {
+        border: 1px solid #ddd;
+        padding: 0.5em;
+    }
+
+    #streaming-text {
+        white-space: pre-wrap;
+        line-height: 1.5;
+        margin-top: 0;
+    }
+
+    #streaming-text h1 {
+        font-size: 1.8em;
+        font-weight: bold;
+        margin-top: 0.8em;
+        margin-bottom: 0.5em;
+        border-bottom: 1px solid #eaecef;
+        padding-bottom: 0.3em;
+    }
+    
+    #streaming-text h2 {
+        font-size: 1.5em;
+        font-weight: bold;
+        margin-top: 0.8em;
+        margin-bottom: 0.5em;
+        border-bottom: 1px solid #eaecef;
+        padding-bottom: 0.3em;
+    }
+
+</style>
+
+<script>
+// Simple, direct script right inside the HTML
+document.addEventListener('DOMContentLoaded', function() {
+    // Get elements
+    const reasoningBox = document.getElementById('reasoning-box');
+    const reasoningHeader = document.getElementById('reasoning-header');
+    const reasoningTitle = document.getElementById('reasoning-title');
+    const thinkingSpinner = document.getElementById('thinking-spinner');
+    const expandArrow = document.getElementById('expand-arrow');
+    const reasoningContent = document.getElementById('reasoning-content');
+    const streamingText = document.getElementById('streaming-text');
+    const textInput = document.getElementById('textInput');
+    const cursor = document.querySelector('.blinking-cursor');
+    
+    // Toggle reasoning content when header is clicked
+    reasoningHeader.addEventListener('click', function() {
+        if (expandArrow.style.display === 'inline-block') { // Only allow toggle after thinking phase
+            reasoningContent.style.display = reasoningContent.style.display === 'none' ? 'block' : 'none';
+            expandArrow.innerHTML = reasoningContent.style.display === 'none' ? '▼' : '▲';
+        }
+    });
+    
+    // Wait 2 seconds then show the reasoning toggle
+    setTimeout(function() {
+        reasoningTitle.textContent = 'Reasoning';
+        reasoningTitle.style.fontWeight = 'bold';
+        thinkingSpinner.style.display = 'none';
+        expandArrow.style.display = 'inline-block';
+        
+        // Start streaming the text
+        const content = textInput.value;
+        let i = 0;
+        function streamText() {
+            if (i < content.length) {
+                streamingText.textContent += content[i];
+                i++;
+                setTimeout(streamText, 2);
+            } else {
+                cursor.style.display = 'none';
+            }
+        }
+        streamText();
+    }, 3000);
+});
+</script>
