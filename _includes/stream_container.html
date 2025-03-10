@@ -23,9 +23,6 @@
             <!-- {% assign reasoning_content_escaped = reasoning_content | strip | replace: '<think>', '&lt;think&gt;' | replace: '</think>', '&lt;/think&gt;' %} -->
             {% capture processed_content %}{{ reasoning_content_escaped | markdownify }}{% endcapture %}
             {% assign processed_content = processed_content | replace: '<p>', '<span class="md-p">' | replace: '</p>', '</span>' %}
-            <script>
-                console.log({{ processed_content | jsonify }});
-            </script>
             {{ processed_content }}
         </div>
     </div>

@@ -192,6 +192,10 @@ body:hover .visually-hidden button {
   padding-right: 0.5em;
   margin-right: 0.5em;
 }
+.semi-icon-pad-right {
+  padding-right: 0.35em;
+  margin-right: 0.35em;
+}
 
 /* social icons*/
 
@@ -231,6 +235,10 @@ body:hover .visually-hidden button {
   .fa-github-alt,
   .fa-github-square {
     color: $github-color;
+  }
+
+  .fa-huggingface{
+    color: $huggingface-color;
   }
 
   .fa-google-plus,
