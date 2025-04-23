@@ -74,6 +74,10 @@ GPA: 4.0/4.3
 - Spanish (Elementary)
 
 ## Publications
+
+See my [Google Scholar](https://scholar.google.com/citations?user=O-YzTloAAAAJ&hl=en) for a complete list of publications.
+
+- **Béchard, Patrice**, et al. "StarFlow: Generating Structured Workflow Outputs From Sketch Images." arXiv preprint [arXiv:2503.21889](https://arxiv.org/abs/2503.21889) (2025).
 - **Béchard, Patrice**, and Orlando Marquez Ayala. "Multi-task retriever fine-tuning for domain-specific and efficient RAG." arXiv preprint [arXiv:2501.04652](https://arxiv.org/abs/2501.04652) (2025).
 - Ayala, Orlando Marquez, and **Patrice Béchard**. "Generating a Low-code Complete Workflow via Task Decomposition and RAG." arXiv preprint [arXiv:2412.00239](https://arxiv.org/abs/2412.00239) (2024).
 - **Béchard, Patrice**, and Orlando Marquez Ayala. "Reducing hallucination in structured outputs via Retrieval-Augmented Generation." Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 6: Industry Track). 2024. [Link](https://aclanthology.org/2024.naacl-industry.19/)
