@@ -1,7 +1,7 @@
 <div id="container">
     <!-- Reasoning box -->
     <div id="reasoning-box" class="collapsed" style="border: 1px solid #666666; background-color: #f5f5f5; border-radius: 8px; width: fit-content; transition: width 0.3s ease;">
-        <div id="reasoning-header" style="cursor: pointer; display: flex; align-items: center; padding: 5px 10px;">
+        <div id="reasoning-header" style="cursor: pointer; display: flex; align-items: center; padding: 2px 10px;">
             <div id="reasoning-title" style="font-weight: bold;">Thinking...</div>
             <!-- <div id="thinking-spinner" class="spinner" style="display: inline-block;"></div> -->
             <!-- Simple explicit spinner that will definitely show -->
@@ -20,7 +20,7 @@
         </div>
         <div id="reasoning-content" style="display: none; padding: 10px; max-height: 400px; overflow-y: auto;">
             {% capture reasoning_content %}{% include {{ include.reasoning }}.md %}{% endcapture %}
-            <!-- {% assign reasoning_content_escaped = reasoning_content | strip | replace: '<think>', '&lt;think&gt;' | replace: '</think>', '&lt;/think&gt;' %} -->
+            {% assign reasoning_content_escaped = reasoning_content | strip | replace: '<think>', '&lt;think&gt;' | replace: '</think>', '&lt;/think&gt;' %}
             {% capture processed_content %}{{ reasoning_content_escaped | markdownify }}{% endcapture %}
             {% assign processed_content = processed_content | replace: '<p>', '<span class="md-p">' | replace: '</p>', '</span>' %}
             {{ processed_content }}
@@ -68,11 +68,12 @@
     
     /* Markdown styling */
     #reasoning-content {
+        margin-top: 0;
+        padding-top: 5px !important;
         white-space: pre-wrap;
         line-height: 1.5;
         font-family: Consolas, Menlo, Monaco, 'Courier New', monospace;
         font-size: 0.8em;
-        padding: 10px;
     }
     
     #reasoning-content h1, 
@@ -163,50 +164,25 @@
         padding-bottom: 0.3em;
     }
 
+    /* Add specific styling for the <think> element */
+    #reasoning-content think,
+    #reasoning-content .think {
+        margin-top: 0;
+        padding-top: 0;
+        display: inline-block;
+    }
+
+    /* Ensure the first element inside reasoning content has no top margin */
+    #reasoning-content > *:first-child {
+        margin-top: 0;
+    }
+
+    /* Adjust the padding of the reasoning box header */
+    #reasoning-header {
+        padding: 2px 10px !important;
+    }
+
 </style>
 
-<script>
-// Simple, direct script right inside the HTML
-document.addEventListener('DOMContentLoaded', function() {
-    // Get elements
-    const reasoningBox = document.getElementById('reasoning-box');
-    const reasoningHeader = document.getElementById('reasoning-header');
-    const reasoningTitle = document.getElementById('reasoning-title');
-    const thinkingSpinner = document.getElementById('thinking-spinner');
-    const expandArrow = document.getElementById('expand-arrow');
-    const reasoningContent = document.getElementById('reasoning-content');
-    const streamingText = document.getElementById('streaming-text');
-    const textInput = document.getElementById('textInput');
-    const cursor = document.querySelector('.blinking-cursor');
-    
-    // Toggle reasoning content when header is clicked
-    reasoningHeader.addEventListener('click', function() {
-        if (expandArrow.style.display === 'inline-block') { // Only allow toggle after thinking phase
-            reasoningContent.style.display = reasoningContent.style.display === 'none' ? 'block' : 'none';
-            expandArrow.innerHTML = reasoningContent.style.display === 'none' ? '▼' : '▲';
-        }
-    });
-    
-    // Wait 2 seconds then show the reasoning toggle
-    setTimeout(function() {
-        reasoningTitle.textContent = 'Reasoning';
-        reasoningTitle.style.fontWeight = 'bold';
-        thinkingSpinner.style.display = 'none';
-        expandArrow.style.display = 'inline-block';
-        
-        // Start streaming the text
-        const content = textInput.value;
-        let i = 0;
-        function streamText() {
-            if (i < content.length) {
-                streamingText.textContent += content[i];
-                i++;
-                setTimeout(streamText, 2);
-            } else {
-                cursor.style.display = 'none';
-            }
-        }
-        streamText();
-    }, 3000);
-});
-</script>
+<script src="https://cdn.jsdelivr.net/npm/marked@4.3.0/marked.min.js"></script>
+<script src="{{ '/assets/js/stream.js' | relative_url }}"></script>
