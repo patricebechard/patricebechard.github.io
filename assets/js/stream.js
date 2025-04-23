@@ -1,5 +1,4 @@
 document.addEventListener('DOMContentLoaded', function() {
-    // Add a flag to track if streaming has started
     let hasStartedStreaming = false;
 
     // Get elements
@@ -13,6 +12,25 @@ document.addEventListener('DOMContentLoaded', function() {
     const textInput = document.getElementById('textInput');
     const cursor = document.querySelector('.blinking-cursor');
     
+    // Configure marked options
+    marked.setOptions({
+        gfm: true,
+        breaks: true,
+        headerIds: false,
+        mangle: false
+    });
+
+    // Helper function to ensure proper line breaks
+    function preprocessMarkdown(text) {
+        // Ensure paragraphs have proper spacing
+        return text.split('\n').map(line => {
+            // Preserve empty lines
+            if (line.trim() === '') return '';
+            // Add two spaces at the end of each non-empty line for markdown line breaks
+            return line.trim() + '  ';
+        }).join('\n');
+    }
+
     // Toggle reasoning content when header is clicked
     reasoningHeader.addEventListener('click', function() {
         if (expandArrow.style.display === 'inline-block') {
@@ -21,9 +39,8 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 
-    // Function to start the streaming process
     function startStreaming() {
-        if (hasStartedStreaming) return; // Prevent multiple starts
+        if (hasStartedStreaming) return;
         hasStartedStreaming = true;
 
         reasoningTitle.textContent = 'Reasoning';
@@ -31,7 +48,6 @@ document.addEventListener('DOMContentLoaded', function() {
         thinkingSpinner.style.display = 'none';
         expandArrow.style.display = 'inline-block';
         
-        // Start streaming the text
         const content = textInput.value;
         let accumulatedText = '';
         let i = 0;
@@ -40,11 +56,9 @@ document.addEventListener('DOMContentLoaded', function() {
             if (i < content.length) {
                 accumulatedText += content[i];
                 try {
-                    // Use marked with options
-                    streamingText.innerHTML = marked.parse(accumulatedText, {
-                        gfm: true,
-                        breaks: true
-                    });
+                    // Preprocess the text and render markdown
+                    const processedText = preprocessMarkdown(accumulatedText);
+                    streamingText.innerHTML = marked.parse(processedText);
                 } catch (e) {
                     console.error('Markdown parsing error:', e);
                     streamingText.textContent += content[i];
@@ -58,10 +72,9 @@ document.addEventListener('DOMContentLoaded', function() {
         streamText();
     }
 
-    // Start streaming after a short delay
     setTimeout(startStreaming, 3000);
 
-    // Fallback: If streaming hasn't started after 5 seconds, force start it
+    // Fallback
     setTimeout(function() {
         if (!hasStartedStreaming) {
             console.log('Forcing stream start due to timeout');

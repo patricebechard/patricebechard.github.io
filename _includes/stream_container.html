@@ -142,26 +142,48 @@
 
     #streaming-text {
         white-space: pre-wrap;
-        line-height: 1.5;
+        line-height: 1.6;
+        margin-top: 1em;
+    }
+
+    #streaming-text p {
+        margin-bottom: 1em;
         margin-top: 0;
     }
 
-    #streaming-text h1 {
-        font-size: 1.8em;
-        font-weight: bold;
-        margin-top: 0.8em;
+    #streaming-text h1,
+    #streaming-text h2,
+    #streaming-text h3,
+    #streaming-text h4,
+    #streaming-text h5,
+    #streaming-text h6 {
+        margin-top: 1.5em;
         margin-bottom: 0.5em;
-        border-bottom: 1px solid #eaecef;
-        padding-bottom: 0.3em;
+        line-height: 1.2;
     }
-    
+
+    #streaming-text h1 {
+        font-size: 2em;
+    }
+
     #streaming-text h2 {
         font-size: 1.5em;
-        font-weight: bold;
-        margin-top: 0.8em;
-        margin-bottom: 0.5em;
-        border-bottom: 1px solid #eaecef;
-        padding-bottom: 0.3em;
+    }
+
+    #streaming-text h3 {
+        font-size: 1.17em;
+    }
+
+    /* Ensure proper spacing between paragraphs */
+    #streaming-text p + p {
+        margin-top: 1em;
+    }
+
+    /* Handle line breaks properly */
+    #streaming-text br {
+        display: block;
+        content: "";
+        margin-top: 1em;
     }
 
     /* Add specific styling for the <think> element */
