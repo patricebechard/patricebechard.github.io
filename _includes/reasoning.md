@@ -1,19 +1,17 @@
 <think>
-Okay, let's tackle this. The user wants a Walter Isaacson-style bio written as if Patrice Bechard is writing his own autobiography. I need to capture his journey, key achievements, and personality in an engaging way with anecdotes and a friendly tone.
+Alright, time to put together a bio that really captures who I am—professionally and personally. Let’s break this down step by step and make sure I highlight what matters most.
 
-First, I'll start with the basics: introduce him, mention his current role at ServiceNow. Highlight his education—B.Sc. in Physics, M.Sc. in ML—since that's a strong foundation. Use contractions and keep the language conversational. Maybe an emoji here and there sparingly.
+First, I want to set the scene with my current role at ServiceNow. It’s important to mention that I’m an Applied Research Scientist working on workflow generation and automation for Flow Designer. This isn’t just about coding; it’s about leading projects that blend cutting-edge AI (think language models, information retrieval, RAG) with real-world impact for enterprise workflows. I should also keep the tone accessible—no one likes a wall of jargon. I should also emphasize that this is not simply about applying existing tools to new problems, but to push the boundaries and invent new techniques to solve real-world problems.
 
-Next, the work experience. Start with Intact Financial. He was there as a Data Scientist. Here, focus on the projects with NLP, chatbots, voicebots. Highlight the Dragons' Den wins—those are unique and show his ability to present impactful ideas. The blind date tool for coworkers is quirky and shows creativity, so include that.
+Before ServiceNow, there’s a strong thread of applied NLP work. My stint working on language models focusing on intent classification and automating incident resolution, really shows I can take enterprise challenges and tackle them with practical machine learning solutions. That deserves a mention—maybe even a short anecdote or two about improving IT support through AI.
 
-Then, move to ServiceNow. He's leading the science for the Flow Generation projects. Need to explain what that entails without too much jargon. Mention the evaluation framework he built. Use terms like "parallelizable" but maybe clarify it's for efficiency. Also, the part about training LLMs with images and text, retrieval-augmented generation—explain these briefly as innovations.
+Going further back, my time at Intact Financial is key. Here, it’s all about NLP for insurance—chatbots for call centers, deep learning for telematics, and rolling up my sleeves with big data using PySpark and Hive. I want to make clear that this was more than theory: I built tools that helped real people and businesses, from data visualization for clients to interpretable ML methods. That versatility matters.
 
-His internships and teaching/research roles are also important. The UBI project with telematics and geocoding—maybe mention the scale, like using PySpark and big data. The white dwarf research with the observatory adds a personal touch.
+On the education side, my master’s at MILA in Machine Learning and my undergrad in Physics at Université de Montréal give me a solid foundation. Maybe I can highlight some hands-on projects—implementing neural nets from scratch, or that census of white dwarfs during my research assistant days. Even the teaching assistant gig in relativity deserves a nod; it shows I can explain tough concepts, not just crunch numbers.
 
-Education section: His master's GPA, projects implemented from scratch like VGG, ResNet—show hands-on learning. Maybe a fun fact about the Neural Turing Machine on a copy task.
+Now, for the human side—because no one’s just their resume. I’ll talk about my hobbies: running, hiking, discovering new food, breweries, and natural wines. It’s also worth sneaking in my love of design, languages (French, English, a bit of Spanish), and that itch to always be learning.
 
-Personal life: Running, basketball, love for food and wine. Adds depth to the bio, makes him relatable. Mentioning his fluency in French, English, and Python in a humorous way.
+I’ll round out the bio by pointing people to my Google Scholar, and wrap up with a friendly, approachable tone that shows both expertise and personality. The end goal is to give readers a sense of my journey, what drives me, and the things I care about beyond just work.
 
-He has a list of skills and tools—can frame that as versatility. Maybe end with a hook about his passion driving his work.
-
-Need to weave all this into a narrative that flows, using anecdotes like the blind date tool or the white dwarf project. Keep it engaging, friendly, and highlight both his professional impact and personal interests. Make sure to avoid too much technical jargon to keep it accessible but still showcase his expertise. Also, check the CV to ensure all key points are included without making it a bullet list. Use transitions to connect experiences smoothly.
+Alright—let’s weave these threads together and tell my story!
 </think>

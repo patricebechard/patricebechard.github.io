@@ -1,28 +1,17 @@
-# 🌟 **Patrice Bechard: Trailblazer in AI, Physics, and the Sweet Science of Workflow** 🌟  
+# 👋 About Me
 
-Let’s start with the basics: I’m a data nerd with a heart of geek. Born and raised in Quebec, I’ve spent my life chasing curiosity—first through the stars, then through data, and now through the amidst chaos of language models. Call me *Dr. Lab Rat* (well, M.Sc. rat, technically).  
+I am an Applied Research Scientist at [ServiceNow](https://www.servicenow.com/), where I focus on AI-driven workflow generation and business process automation for [Flow Designer](https://www.servicenow.com/products/platform-flow-designer.html). More broadly, I work on improving tools used to build enterprise workflows using advanced natural language processing, large language models, and information retrieval techniques.
 
-## **The Physics Phase → ML Switch-Up**  
-In my undergrad at Université de Montréal, I fell headfirst into physics—special relativity, astrophysics, you name it. (Yeah, I *still* love debates about time dilation at parties.) But then came the quantum leap: during a research stint at the Astrophysics Research Center, I stumbled into coding with Python and machine learning. Suddenly, instead of studying white dwarfs, I was building tools to map them. Fun fact: I once spent a wild summer night at the Mont-Mégantic Observatory hunting for stars and realizing I needed more sleep.  
+Before this, I worked on improving enterprise specific language models to improve intent classification and [automating issue resolution for enterprise IT](https://www.servicenow.com/docs/bundle/washingtondc-servicenow-platform/page/administer/virtual-agent/concept/auto-resolution-va.html). My role involved training and deploying language models on real-world enterprise data, helping organizations resolve issues more efficiently.
 
-## **AI to the Rescue: Insurance, Chatbots, and Dragons’ Den Wins**  
-My career began at Intact Financial, where I transformed call center chaos into *BERT flavoured order*. Think: teaching machines to spot angry customers’ voices, build insurance chatbots that actually work, and even organizing “blind dates” for coworkers during the pandemic to boost morale (yes, I won two Dragons’ Den awards for that—it’s a miracle). The highlight? Proving to skeptics that AI isn’t just hype but a tool that can **literally** bridge people to the right solutions—whether it’s a customer’s invoice or a team-building date gone wrong.  
+Prior to ServiceNow, I was a Data Scientist at [Intact Financial Corporation](https://www.intact.com/en/), (the largest insurance company in Canada), where I specialized in NLP for insurance applications. I worked on building conversational agents for call centers, analyzing call topics with language models, and applying deep learning techniques to the telematics domain.
 
-## **The ServiceNow Era: LLMs as Your Workflow BFF**  
-Now at ServiceNow, I’m the science lead for something groundbreaking: teaching LLMs to generate workflows for low-code platforms. Ever tried training a model to turn a text request into a fully functioning IT ticket? It’s like coaching a toddler to do calculus… but with GPUs. My secret weapon? A pipeline to generate synthetic workflow data, and a **supercharged evaluation framework** that cuts testing time from days to hours (thanks, parallel processing!). Oh, and I’ve taught tools to “read” images and code, too—because why not let the robots do the heavy lifting?  
+## 🎓🤖🪐 Education
 
-## **The Nerd in Me**  
-I’m a stack of contradictions: fluent in French, English, and *Python*, but a mess at ordering croissants in another language. I code meticulously but skydive on weekends (they call it “statistical adrenaline management”). You’ll find me debugging a PyTorch model by day, then debating wine pairings or shooting hoops by night. (Coffee is my fourth language; don’t even ask about my espresso dataSize.ipynb.)*  
+I hold a Master’s in Machine Learning from [MILA](https://mila.quebec/en/), and a Bachelor’s in Physics from [Université de Montréal](https://phys.umontreal.ca/english/home/). Along the way, I’ve also worked as a teaching assistant in special relativity, and briefly contributed to astrophysics research at [Astrophysics Research Center of Quebec (CRAQ)](https://craq-astro.ca/?lang=en).
 
-## **Proud of:**  
-- Building tools that turn *”I need a refund”* into *”Here’s your $20 back”* (via NLP magic).  
-- That time I taught a neural Turing machine to copy text flawlessly—after watching it fail 100 times.  
-- Never giving up on collaborative filtering for coworker blind dates… it brought two people together!  
+## 🏃🍕🍷 Hobbies
 
-## **The Bottom Line?**  
-I’m the guy who believes AI should **serve humanity**, not just profit motives. Whether it’s automating incident resolution for IT or making robots understand Quebecois accents, my mission’s clear: make tech feel a little more human.  
+Outside of work, I’m passionate about running, hiking, and exploring new restaurants, breweries, and wineries. I love classic design, natural wine, and pairing great food with good company. I’m fluent in French and English, enjoy practicing Spanish, and am always keen to learn something new, whether it’s in AI, cooking, or the great outdoors.
 
-P.S. Ask me about my favorite PostgreSQL query or the worst data viz mistake I’ve ever made. Spoiler: It involved a rainbow pie chart and tears. 🥧🔥  
-
----  
-*This bio was written with ❤️ (and 200ms of CPU time).*
+You can find a list of my research publications on [Google Scholar](https://scholar.google.com/citations?user=O-YzTloAAAAJ&hl=en).
