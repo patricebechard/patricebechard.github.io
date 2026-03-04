@@ -1,17 +1,15 @@
 <think>
-Alright, time to put together a bio that really captures who I am—professionally and personally. Let’s break this down step by step and make sure I highlight what matters most.
+Alright, time to put together a bio that captures both my research focus and my broader background.
 
-First, I want to set the scene with my current role at ServiceNow. It’s important to mention that I’m an Applied Research Scientist working on workflow generation and automation for Flow Designer. This isn’t just about coding; it’s about leading projects that blend cutting-edge AI (think language models, information retrieval, RAG) with real-world impact for enterprise workflows. I should also keep the tone accessible—no one likes a wall of jargon. I should also emphasize that this is not simply about applying existing tools to new problems, but to push the boundaries and invent new techniques to solve real-world problems.
+First, I should clearly frame my current work at ServiceNow. The key theme is AI agents for enterprise automation. My research is not just about applying language models, but about building systems that can reliably interact with enterprise platforms. That includes designing realistic environments and benchmarks, studying how agents operate through different interfaces (web interfaces, APIs, documentation), and evaluating how well they perform on complex enterprise workflows. It’s important to highlight that this work sits at the intersection of AI research and real-world systems.
 
-Before ServiceNow, there’s a strong thread of applied NLP work. My stint working on language models focusing on intent classification and automating incident resolution, really shows I can take enterprise challenges and tackle them with practical machine learning solutions. That deserves a mention—maybe even a short anecdote or two about improving IT support through AI.
+Next, I should summarize the applied work I’ve done at ServiceNow. This includes projects on text-to-workflow generation, image-to-workflow generation, and AI systems that automate operational tasks such as IT issue resolution. These projects show how machine learning can be integrated directly into enterprise platforms to automate real business processes.
 
-Going further back, my time at Intact Financial is key. Here, it’s all about NLP for insurance—chatbots for call centers, deep learning for telematics, and rolling up my sleeves with big data using PySpark and Hive. I want to make clear that this was more than theory: I built tools that helped real people and businesses, from data visualization for clients to interpretable ML methods. That versatility matters.
+Then I should cover my earlier experience at Intact Financial. The focus there was applied NLP for insurance applications: conversational agents for call centers, large-scale analysis of call transcripts, and deep learning models applied to telematics data. This part of my career highlights experience building machine learning systems that operate on large, real-world datasets and support business decision-making.
 
-On the education side, my master’s at MILA in Machine Learning and my undergrad in Physics at Université de Montréal give me a solid foundation. Maybe I can highlight some hands-on projects—implementing neural nets from scratch, or that census of white dwarfs during my research assistant days. Even the teaching assistant gig in relativity deserves a nod; it shows I can explain tough concepts, not just crunch numbers.
+After that, I can briefly mention my academic background. My Master’s work at MILA in machine learning and my undergraduate degree in physics provided the theoretical foundation for my current research. Teaching assistant work in relativity and astrophysics research also helped develop strong analytical and communication skills.
 
-Now, for the human side—because no one’s just their resume. I’ll talk about my hobbies: running, hiking, discovering new food, breweries, and natural wines. It’s also worth sneaking in my love of design, languages (French, English, a bit of Spanish), and that itch to always be learning.
+Finally, I should include a short personal section. Running, hiking, and exploring restaurants and wine bars are good ways to show personality and interests outside of research. I also want to mention languages and curiosity for learning new things.
 
-I’ll round out the bio by pointing people to my Google Scholar, and wrap up with a friendly, approachable tone that shows both expertise and personality. The end goal is to give readers a sense of my journey, what drives me, and the things I care about beyond just work.
-
-Alright—let’s weave these threads together and tell my story!
+The goal is to present a coherent narrative: research on AI agents and automation today, applied machine learning experience in industry, and a strong scientific background.
 </think>
