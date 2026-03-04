@@ -49,22 +49,23 @@ document.addEventListener('DOMContentLoaded', function() {
         expandArrow.style.display = 'inline-block';
         
         const content = textInput.value;
+        // Split into BPE-like tokens (~3-4 chars avg, breaking at natural boundaries)
+        const tokens = content.match(/\s+|[A-Z][a-z]+|[a-z]{1,4}|[A-Z]+|[0-9]+|[^\s\w]|[\w]/g) || [];
         let accumulatedText = '';
         let i = 0;
 
         function streamText() {
-            if (i < content.length) {
-                accumulatedText += content[i];
+            if (i < tokens.length) {
+                accumulatedText += tokens[i];
                 try {
-                    // Preprocess the text and render markdown
                     const processedText = preprocessMarkdown(accumulatedText);
                     streamingText.innerHTML = marked.parse(processedText);
                 } catch (e) {
                     console.error('Markdown parsing error:', e);
-                    streamingText.textContent += content[i];
+                    streamingText.textContent += tokens[i];
                 }
                 i++;
-                setTimeout(streamText, 2);
+                setTimeout(streamText, 8);
             } else {
                 cursor.style.display = 'none';
             }

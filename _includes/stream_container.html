@@ -18,13 +18,7 @@
             <div id="reasoning-toggle" style="display: none;">Reasoning</div>
             <div id="expand-arrow" style="display: none; margin-left: 10px; font-size: 0.6em;">▼</div>
         </div>
-        <div id="reasoning-content" style="display: none; padding: 10px; max-height: 400px; overflow-y: auto;">
-            {% capture reasoning_content %}{% include {{ include.reasoning }}.md %}{% endcapture %}
-            {% assign reasoning_content_escaped = reasoning_content | strip | replace: '<think>', '&lt;think&gt;' | replace: '</think>', '&lt;/think&gt;' %}
-            {% capture processed_content %}{{ reasoning_content_escaped | markdownify }}{% endcapture %}
-            {% assign processed_content = processed_content | replace: '<p>', '<span class="md-p">' | replace: '</p>', '</span>' %}
-            {{ processed_content }}
-        </div>
+        <div id="reasoning-content" style="display: none; padding: 10px; max-height: 400px; overflow-y: auto;">{% capture reasoning_content %}{% include {{ include.reasoning }}.md %}{% endcapture %}{% assign reasoning_content_escaped = reasoning_content | strip | replace: '<think>', '&lt;think&gt;' | replace: '</think>', '&lt;/think&gt;' %}{% capture processed_content %}{{ reasoning_content_escaped | markdownify }}{% endcapture %}{% assign processed_content = processed_content | replace: '<p>', '<span class="md-p">' | replace: '</p>', '</span>' | strip %}{{ processed_content }}</div>
     </div>
     
     <!-- Streaming text below the reasoning box -->
@@ -83,7 +77,7 @@
     #reasoning-content h5, 
     #reasoning-content h6 {
         margin-top: 1em;
-        margin-bottom: 0.5em;
+        margin-bottom: 0;
         font-weight: bold;
     }
     
@@ -148,11 +142,12 @@
         white-space: pre-wrap;
         line-height: 1.6;
         margin-top: 1em;
+        text-align: justify;
     }
 
     #streaming-text p {
-        margin-bottom: 1em;
-        margin-top: 0;
+        margin-bottom: 0 !important;
+        margin-top: 0 !important;
         white-space: pre-wrap;
     }
 
@@ -162,8 +157,8 @@
     #streaming-text h4,
     #streaming-text h5,
     #streaming-text h6 {
-        margin-top: 1.5em;
-        margin-bottom: 0.5em;
+        margin-top: 0.5em !important;
+        margin-bottom: 0;
         line-height: 1.2;
     }
 
@@ -181,14 +176,14 @@
 
     /* Ensure proper spacing between paragraphs */
     #streaming-text p + p {
-        margin-top: 1em;
+        margin-top: 0;
     }
 
     /* Handle line breaks properly */
     #streaming-text br {
         display: block;
         content: "";
-        margin-top: 1em;
+        margin-top: 0;
     }
 
     /* Add specific styling for the <think> element */
